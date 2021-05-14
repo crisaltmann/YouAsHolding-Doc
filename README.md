@@ -7,12 +7,10 @@ Esse documento tem como objetivo apresentar e descrever o projeto final, fornece
 
 ## [Canvas do Produto](canvas-do-produto.md)
 
-## [Planejamento da Release](planejamento-da-release.md)
+## [User Stories](user-stories.md)
 
-## [Representação da Arquitetura](representacao-da-arquitetura.md) 
+## [Representação da Arquitetura](arquitetura.md) 
 
-## [Desenvolvimento da Solução](desenvolvimento-da-solucao.md)
+## [Wireframes](wireframes.md)
 
 ## [Testes e Validação](testes.md)
-
-## [POSTMORTEM](postmortem.md)
