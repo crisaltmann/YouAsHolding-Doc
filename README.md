@@ -13,4 +13,4 @@ Esse documento tem como objetivo apresentar e descrever o projeto final, fornece
 
 ## [Wireframes](wireframes.md)
 
-## [Testes e Validação](testes.md)
+## [Fluxograma](fluxograma.md)
