@@ -11,6 +11,8 @@ Esse documento tem como objetivo apresentar e descrever o projeto final, fornece
 
 ## [Representação da Arquitetura](arquitetura.md) 
 
+## [Diagrama ER](diagrama_er.md)
+
 ## [Wireframes](wireframes.md)
 
 ## [Fluxograma](fluxograma.md)
