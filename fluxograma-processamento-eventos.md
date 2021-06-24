@@ -8,20 +8,20 @@ A aplicação de backend é dividida nos componentes:
 
 <ul>
     <li>
-        <p>**Importer**: Este componente possui o controle e parsers de importação de resultados. Neste momento o parser é feito de um arquivo xlsx com o balanço patrimonial e DRE trimestral de uma empresa.</p> 
+        <p>Importer: Este componente possui o controle e parsers de importação de resultados. Neste momento o parser é feito de um arquivo xlsx com o balanço patrimonial e DRE trimestral de uma empresa.</p> 
         <p>Uma vez processado e salvo o resultado, é gerado um evento notificando o ativo e o trimestre que foi gerado um resultado.</p>
     </li>
     <li>
-        <p>**Order**: Componente responsável por cadastrar a movimentação de um ativo. Uma vez que a movimentação é validada e salva, um evento de movimentação do usuário é gerado para o recalculo do portfólio.</p>
+        <p>Order: Componente responsável por cadastrar a movimentação de um ativo. Uma vez que a movimentação é validada e salva, um evento de movimentação do usuário é gerado para o recalculo do portfólio.</p>
     </li>
     <li>
-        <p>**Holding**: Componente que possui dois consumidores que leem os dados gerados e executa o fluxo detalhado abaixo. Uma vez consumido o evento, calculado o resultado e salvo é gerado um evento indicando este processo foi concluído.</p>
+        <p>Holding: Componente que possui dois consumidores que leem os dados gerados e executa o fluxo detalhado abaixo. Uma vez consumido o evento, calculado o resultado e salvo é gerado um evento indicando este processo foi concluído.</p>
     </li>
     <li>
-        <p>**Insights**: Uma vez que um portfólio é atualizado através da notificação do evento, o consumidor de insights processa os dados de destaques entre trimestres. Os dados são salvos no banco de dados</p>
+        <p>Insights: Uma vez que um portfólio é atualizado através da notificação do evento, o consumidor de insights processa os dados de destaques entre trimestres. Os dados são salvos no banco de dados</p>
     </li>
     <li>
-        <p>**Rest api**: Os demais domínios da aplicação são disponibilizados através de uma api rest que recebe e processa as requisições. As apis existentes são: Ativo, Trimestre, Movimentação, Holding, Insights.</p>
+        <p>Rest api: Os demais domínios da aplicação são disponibilizados através de uma api rest que recebe e processa as requisições. As apis existentes são: Ativo, Trimestre, Movimentação, Holding, Insights.</p>
     </li>
 </ul>
 
