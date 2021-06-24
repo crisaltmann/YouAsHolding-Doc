@@ -16,3 +16,5 @@ Esse documento tem como objetivo apresentar e descrever o projeto final, fornece
 ## [Wireframes](wireframes.md)
 
 ## [Fluxograma](fluxograma.md)
+
+## [Fluxograma processamento eventos](fluxograma-processamento-eventos.md)
