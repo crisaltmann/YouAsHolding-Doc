@@ -2,7 +2,7 @@
 
 Segue abaixo o fluxograma das principais atividades realizadas no sistema.
 
-![](https://github.com/crisaltmann/YouAsHolding-Doc/blob/main/doc/Fluxo-youasholding.jpg "Fluxograma")
+![](https://github.com/crisaltmann/YouAsHolding-Doc/blob/main/doc/Fluxo-youasholding.png "Fluxograma")
 
 O fluxograma acima cita 4 processos distintos:
 
